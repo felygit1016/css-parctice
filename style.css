@@ -1,0 +1,86 @@
+img {
+  width:200px;
+}
+
+div img {
+  border: 5px solid red;
+}
+
+/* 子代選擇器 */
+div > img {
+  width: 400px;
+}
+
+/* LINK */
+a {
+  color: #ccc;
+}
+
+a:hover {
+  color: black;
+}
+
+.button {
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 50px;
+  background-color:  white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;;
+}
+
+.button:hover {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 50px;
+  background-color:  #eee;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;;
+}
+
+
+/* ID Selector */
+#first-div {
+  color: #ccc;
+}
+
+#second-div {
+  color: #bbb;
+}
+
+#third-div {
+  color: #aaa;
+}
+
+/* CLASS Selector */
+.text-center {
+  text-align: center;
+}
+
+/* Element Selector */
+h1{
+  text-decoration: underline;
+}
+
+/* TRY TRY SEE */
+.four-legs {
+  color: red;
+}
+
+/* Selector two classes (OR) */
+.can-fly, .bug {
+  color: blue;
+}
+
+/* Selector two classes (AND) */
+.animal, .run {
+  text-decoration: underline;;
+}
+
+/* Combine different selector (AND) */
+div.animal {
+  background-color: yellow;
+}
